@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dkusername">Name:</string>
+    <string name="dkpassword">Passwort:</string>
+    <string name="dklogin">dK::Login</string>
+    <string name="dk_no_username">kein Benutzername</string>
+    <string name="dk_no_password">kein Passwort</string>
+    <string name="dk_wrong_username">falscher Benutzername/Passwort</string>
+    <string name="dk_wrong_password">falscher Benutzername/Passwort</string>
+    <string name="dkregister">dK:Register</string>
+    <string name="dkregister2">Registrieren</string>
+    <string name="dkaccount_state">Accountstatus:</string>
+    <string name="dkpurchase_state">Bezahlstatus:</string>
+    <string name="dkrelaod">neu laden</string>
+    <string name="dkpurchase">kaufen</string>
+    <string name="dknew_login">anderer Account Login</string>
+    <string name="dkpurchase_success">in ihrem dK Konto wurde eine Zahlung verbucht</string>
+    <string name="dklogin_error">login zu dK Play Sync nicht möglich</string>
+    <string name="dkdisconnect">Verbindung trennen</string>
+    <string name="dkOK">OK</string>
+    <string name="dkselect_folder">Ordner wählen</string>
+    <string name="dkCANCEL">abbrechen</string>
+    
+</resources>

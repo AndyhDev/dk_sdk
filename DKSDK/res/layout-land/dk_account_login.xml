@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dk_account_1" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="504dp" >
+
+        <EditText
+            android:id="@+id/dk_account_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dk_account_4"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/dk_account_4"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/dk_account_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dk_account_username"
+            android:layout_below="@+id/dk_account_username"
+            android:layout_marginTop="21dp"
+            android:text="@string/dkpassword"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/dk_account_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dk_account_5"
+            android:layout_alignRight="@+id/dk_account_username"
+            android:layout_below="@+id/dk_account_5"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/dk_account_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="180dp"
+            android:maxWidth="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_800" />
+
+        <TextView
+            android:id="@+id/dk_account_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/dk_account_2"
+            android:text="@string/dkusername"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dk_account_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dk_account_2"
+            android:layout_marginLeft="25dp"
+            android:text="@string/dklogin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/dk_account_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dk_account_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:maxWidth="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/button" />
+
+    </RelativeLayout>
+    
+</ScrollView>
+
